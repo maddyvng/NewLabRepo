@@ -1,0 +1,80 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: 'wdth' 100;
+    padding: 5px;
+    margin: 5px;
+}
+
+#webname {
+    background-color: rgb(114, 235, 225);
+}
+
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    margin-right: 15px;
+}
+
+table th {
+    padding: 12px;
+    background-color: beige;
+    color: darkcyan;
+    width: fit-content;
+}
+
+tr:nth-child(even){
+    background-color:rgb(152, 229, 222)
+}
+
+form * {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+form input[type="submit"] {
+    padding: 8px 12px;
+    background-color: beige;
+    border: none;
+    border-radius: 4px;
+}
+
+#FavList {
+    display: none;
+}
+
+#SeeMoreButton {
+    padding: 10px 20px;
+    background-color: rgb(98, 202, 193);
+    color: beige;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#SeeMoreButton:hover {
+    background-color: rgb(115, 222, 213);
+}
+
+#fullBio, #readLess {
+    display: none;
+}
+
+#readMore, #readLess {
+    padding: 10px 20px;
+    background-color: rgb(98, 202, 193);
+    color: beige;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#readMore:hover, #readLess:hover {
+    background-color: rgb(115, 222, 213);
+}
