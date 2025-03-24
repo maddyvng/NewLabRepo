@@ -1,0 +1,130 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: 'wdth' 100;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+#webname {
+    background-color: rgb(114, 235, 225);
+}
+
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    margin-right: 15px;
+}
+
+table th {
+    padding: 12px;
+    background-color: beige;
+    color: darkcyan;
+    width: fit-content;
+}
+
+tr:nth-child(even){
+    background-color:rgb(152, 229, 222)
+}
+
+form * {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+form input[type="submit"] {
+    padding: 8px 12px;
+    background-color: beige;
+    border: none;
+    border-radius: 4px;
+}
+
+/*
+#FavList {
+    display: none;
+}
+*/
+
+
+
+.container {
+    display: inline-block;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button#getAdviceButton {
+    padding: 8px 12px;
+    background-color: beige;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.funIMG {
+    border-radius: 100%;
+    width: 400px;
+    height: auto;
+}
+
+/* .funVideo { */
+    /* width: 560px; Adjust the width as needed */
+    /* height: 315px; Adjust the height as needed */
+    /* border: none; Remove the border */
+    /* display: block; Ensure the iframe is displayed as a block element */
+/* } */
+
+
+#SeeMoreButton {
+    padding: 10px 20px;
+    background-color: rgb(98, 202, 193);
+    color: beige;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#SeeMoreButton:hover {
+    background-color: rgb(115, 222, 213);
+}
+
+#fullBio, #readLess {
+    display: none;
+}
+
+#readMore, #readLess {
+    padding: 10px 20px;
+    background-color: rgb(98, 202, 193);
+    color: beige;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#readMore:hover, #readLess:hover {
+    background-color: rgb(115, 222, 213);
+}
+
+.mainLayout 
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+#item1, #item2, #item3, #item4{
+    width: 40vw;
+    margin: auto;
+}
+
+

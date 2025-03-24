@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src="../static/script.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Maddy Ng">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Maddy Ng professional website">
+    <title>Maddy Ng</title>
+</head>
+<body style="font-family: Arial" onload="addYear()">
+    <header>
+        <h1 id="webname">Maddy Ng</h1>
+        
+        <nav>
+        <a href="../index.html" target="_self">Home</a>
+        <a href="cv.html" target="_self">CV</a>
+        <a href="fun.html" target="_self">For Fun</a>
+        <a href="contact.html" target="_self">Contact Me</a>
+        </nav>
+    </header>
+
+    <div class="mainLayout">
+        
+            <div id="item1">
+                <h2>Things I love to do for fun</h2>
+                
+            <!--  <button id="SeeMoreButton" onclick="showList()">Click to see...</button> -->
+                <ul id="FavList">
+                    <li>Photography</li>
+                    <li>Writing</li>
+                    <li>Making Artwork</li>
+                    <li>Hiking and Being Outdoors</li>
+                    <li>Watching Movies</li>
+                </ul>
+            </div>
+
+            <div id="item2">
+                <img class="funIMG" src="../static/sunset.jpeg" alt="picture of sunset at Valley of Fire State Park">
+            </div>
+        
+
+            <div id="item3">
+            <iframe class="funVideo" src="https://www.youtube.com/embed/6eWIffP2M3Y?si=v3As9-R1xCCIPapx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div id="item4">
+                <div class="container">
+                    <h2>Need Some Advice?</h2>
+                    <p id="adviceText">Click the button to get a random piece of advice!</p>
+                    <button id="getAdviceButton" onclick="getAdvice()">Get Advice</button>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <p id="copyYear">Designed by Maddy Ng &copy;</p>
+        </footer>
+</body>
+</html>
+
