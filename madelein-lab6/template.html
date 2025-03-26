@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script defer src="./static/script.js"></script>
+    <!-- <script> src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"</script> -->
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/templates.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1a34c87709.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Maddy Ng">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Maddy Ng professional website">
+    <title>Maddy Ng</title>
+</head>
+<body style="font-family: Arial" onload="addYear()">
+
+    <div class="mainContainer">
+            <header>
+            <h1 id="webname">Maddy Ng</h1>
+            </header>
+        
+            <nav>
+                <i class="fas fa-bars" id="menu-icon"></i>
+                <div class="nav-links">
+                <a href="index.html" target="_self">Home</a>
+                <a href="views/cv.html" target="_self">CV</a>
+                <a href="views/fun.html" target="_self">For Fun</a>
+                <a href="views/contact.html" target="_self">Contact Me</a>
+                <a href="template.html">Go to Template Page</a>
+                </div>
+            </nav>
+        
+            <div class = "mainImg">
+                <img src="static/headshot - mn.png" alt="picture of me with a sunset backdrop" height="240">
+            </div>
+
+            <main>
+                <h2 id="greeting">Hi, my name is Maddy Ng</h2>
+            </main>
+
+            <div class = "bottomContent">
+                <p class="intro" id="shortBio"> I am a student at CMU studying Information Systems.</p>
+                <!-- <span id="shortIntro">I am a student at CMU studying Information Systems.</span> -->
+                <p id="fullBio">This is the full version of my bio with more details about my life, experiences, and interests...</p>
+                <button id="readMore">Read More</button>
+                <button id="readLess">Read Less</button>
+            </div>
+
+            <footer>
+            <p id="copyYear">Designed by Maddy Ng &copy;</p>
+            </footer>
+        </div>
+</body>
+</html>
